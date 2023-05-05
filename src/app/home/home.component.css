@@ -1,0 +1,34 @@
+ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    list-style-type:none;
+    padding:0;
+}
+li a{
+    height:20rem;
+    width:20rem;
+    border:1px;
+    border-radius:1rem;
+    margin:0.5rem;
+    display:flex;
+    flex-direction: column;
+    overflow:hidden;
+    color:red;
+
+}
+li a:hover{
+    opacity:0.9;
+    cursor:pointer;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("http://localhost/diet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position-y: 100;
+}
